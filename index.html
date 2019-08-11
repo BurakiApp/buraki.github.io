@@ -11,8 +11,8 @@
 
     <title>BurakiApp</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+       <!-- Bootstrap core CSS -->
+       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom fonts for this template -->
     <link href="fonts/saira.css" rel="stylesheet" />
@@ -21,6 +21,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet" />
+ 
   </head>
 
   <body id="page-top">
@@ -153,70 +154,62 @@
               </p>
             </div>
           </div>
-          <!--Carousel Wrapper-->
-          <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-
-            <!--Controls-->
-            <div class="controls-top">
-              <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
-              <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
-                  class="fas fa-chevron-right"></i></a>
-            </div>
-            <!--/.Controls-->
-
-            <!--Indicators-->
-            <ol class="carousel-indicators">
-              <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-              <li data-target="#multi-item-example" data-slide-to="1"></li>
-              <li data-target="#multi-item-example" data-slide-to="2"></li>
-            </ol>
-            <!--/.Indicators-->
-
-            <!--Slides-->
-            <div class="carousel-inner" role="listbox">
-
-              <!--First slide-->
-              <div class="carousel-item active">
-                <div class="col-md-4">
-                    <div class="card mb-2">
-                      <img class="card-img-top"
-                        src="img/image-01.jpg"
-                        alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title text-center">Buraco nas ruas</h4>
-                        <p class="card-text">Relate problemas nas estradas</p>
-                      </div>
-                    </div>
-                  </div>
+          <div class="container align-center text-center justify-content-center">
             
-                  <div class="col-md-4">
-                    <div class="card mb-2">
-                      <img class="card-img-top"
-                        src="img/image-02.jpg"
-                        alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Calçadas irregulares</h4>
-                        <p class="card-text">Relate problemas nas calçadas</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4">
-                    <div class="card mb-2">
-                      <img class="card-img-top"
-                        src="img/image_03.jpg"
-                        alt="Card image cap">
-                      <div class="card-body">
-                        <h4 class="card-title">Terreno Baldio</h4>
-                        <p class="card-text">Relate problemas com terrenos baldios</p>
-                      </div>
+            <div class="row col-md-6">
+          <div id="carouselExampleInterval" class="carousel slide " data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="10000">
+                <div class="col-md-12">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/image-01.jpg"
+                      alt="Card image cap"> 
+                    <div class="card-body">
+                      <h4 class="card-title text-center">Buraco nas ruas</h4>
+                      <p class="card-text">Relate problemas nas estradas</p>
                     </div>
                   </div>
                 </div>
-
               </div>
-              <!--/.First slide-->
+              <div class="carousel-item " data-interval="2000">
+                <div class="col-md-12">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/image-02.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Calçadas irregulares</h4>
+                      <p class="card-text">Relate problemas nas calçadas</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item  data-interval="3000>
+                <div class="col-md-12">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/image_03.jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Terreno Baldio</h4>
+                      <p class="card-text">Relate problemas com terrenos baldios</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
             <!--/.Slides-->
           </div>
           <!--/.Carousel Wrapper-->
